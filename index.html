@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yunhwa's portfolio</title>
+    <!-- jqeury CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- gsap library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/Draggable.min.js"></script>
+
+    <!-- style/js link -->
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <link rel="icon" href="img/favicon.png">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div id="header_wrap">
+            <div class="header symbol">
+                <a href="#"><img src="img/symbol.png" alt="symbol"></a>
+            </div>
+            <div class="header name">
+                <h4>V.01.2024</h4>
+                <p>Portfolio Works</p>
+            </div>
+            <div class="header nav">
+                <ul>
+                    <li class="first"><a href="#">Home</a></li>
+                    <li><a href="#slide02">About</a></li>
+                    <li><a href="#slide03">Project</a></li>
+                    <li><a href="#slide04">Process</a></li>
+                    <li><a href="#slide05">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- right nav dots -->
+    <div id="nav-dots">
+        <ul>
+            <li>
+                <a href="#slide01">
+                    <span class="nav-label">Home</span>
+                    <span class="nav-dot"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#slide02">
+                    <span class="nav-label">About</span>
+                    <span class="nav-dot"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#slide03">
+                    <span class="nav-label">Project</span>
+                    <span class="nav-dot"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#slide04">
+                    <span class="nav-label">Process</span>
+                    <span class="nav-dot"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#slide05">
+                    <span class="nav-label">Contact</span>
+                    <span class="nav-dot"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- intro 3D box -->
+    <section class="div s_01" id="slide01">
+        <div class="loading-container">
+            <div class="loading-wrap">
+                <div class="img_box add"></div>
+                <div class="img_box add_one"></div>
+                <div class="img_box add_two"></div>
+                <div class="container">
+                    <div class="hi">
+                        <!-- yunhwa's -->
+                        <div class="hi__cuboid">
+                            <div class="face face--front">
+                                <p class="hi__word">Web</p>
+                            </div>
+                            <div class="face face--back">
+                                <p class="hi__word">Web</p>
+                            </div>
+                            <div class="face face--top">
+                                <p class="hi__word">Web</p>
+                            </div>
+                            <div class="face face--bottom">
+                                <p class="hi__word">Web</p>
+                            </div>
+                        </div>
+                        <!-- fontend -->
+                        <div class="hi__cuboid">
+                            <div class="face face--front">
+                                <p class="hi__word">Developer</p>
+                            </div>
+                            <div class="face face--back">
+                                <p class="hi__word">Developer</p>
+                            </div>
+                            <div class="face face--top">
+                                <p class="hi__word">Developer</p>
+                            </div>
+                            <div class="face face--bottom">
+                                <p class="hi__word">Developer</p>
+                            </div>
+                        </div>
+                        <!-- developer -->
+                        <div class="hi__cuboid">
+                            <div class="face face--front">
+                                <p class="hi__word">yunhwachoi</p>
+                            </div>
+                            <div class="face face--back">
+                                <p class="hi__word">yunhwachoi</p>
+                            </div>
+                            <div class="face face--top">
+                                <p class="hi__word">yunhwachoi</p>
+                            </div>
+                            <div class="face face--bottom">
+                                <p class="hi__word">yunhwachoi</p>
+                            </div>
+                        </div>
+                        <!-- fortpolio -->
+                        <div class="hi__cuboid">
+                            <div class="face face--front">
+                                <p class="hi__word">portfolio</p>
+                            </div>
+                            <div class="face face--back">
+                                <p class="hi__word">portfolio</p>
+                            </div>
+                            <div class="face face--top">
+                                <p class="hi__word">portfolio</p>
+                            </div>
+                            <div class="face face--bottom">
+                                <p class="hi__word">portfolio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="div s_02" id="slide02">
+        <div class="about_wrap">
+            <div class="inner">
+                <h1 class="big">Loveing <span>design <br> </span> and <span>
+                        development</span></h1>
+                <h3 class="works">&#8595; Hover for more information &#8595;
+                </h3>
+                <!-- <span>&#169;</span> -->
+            </div>
+        </div>
+        <div class="box_wrap">
+            <div class="profile">
+                <div class="headline">
+                    <h3>Profile</h3>
+                </div>
+                <div class="profile_inner">
+                    <!-- <div class="inner_list_me"></div> -->
+                    <div class="list_wrap">
+                        <div class="inner_list">
+                            <h3>Name</h3>
+                            <span>최윤화
+                                <br>YUNHWA CHOI</span>
+                        </div>
+
+                        <div class="inner_list">
+                            <h3>Birth</h3>
+                            <span>2000.07.20<br>
+                                (만 23세)
+                            </span>
+                        </div>
+
+                        <div class="inner_list">
+                            <h3>Address</h3>
+                            <span>경기도 수원시</span>
+                        </div>
+
+                        <div class="inner_list">
+                            <h3>MBTI</h3>
+                            <span>용감한 수호자 ISFJ</span>
+                        </div>
+                    </div>
+                    <div class="list_wrap">
+                        <div class="inner_list">
+                            <h3>Education</h3>
+                            <span>국립한경대학교
+                                <br>커뮤니케이션 디자인학과</span>
+                        </div>
+
+                        <div class="inner_list">
+                            <h3>Certificate</h3>
+                            <span>웹디자인기능사
+                                <br>GTQ 1급</span>
+                        </div>
+
+                        <div class="inner_list">
+                            <h3>Phone</h3>
+                            <span>+82 10-3366-5311</span>
+                        </div>
+
+                        <div class="inner_list">
+                            <h3>Email</h3>
+                            <span>cyh272036@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="act">
+                <div class="headline">
+                    <h3>Activities</h3>
+                </div>
+                <div class="act_inner">
+                    <div class="inner_list">
+                        <h3>[2023.11 - ]</h3>
+                        <span class="import">코딩자율학습단 5기 참여</span><br>
+                    </div>
+
+                    <div class="inner_list">
+                        <h3>[2023.05-2023.11]</h3>
+                        <span class="import">웹콘텐츠 UX/UI 디자인 & 프론트엔드 개발자 양성과정 수료</span><br>
+                    </div>
+
+                    <div class="inner_list">
+                        <h3>[2023.01-2023.03]</h3>
+                        <span class="import">광고 에이전시 DeNA 인턴십</span><br>
+                        <span class="sub">CNP key visual 개발 및 와이드 광고 제작 등</span>
+                    </div>
+
+                    <div class="inner_list">
+                        <h3>[2022.11]</h3>
+                        <span class="import">한경국립대학교 디자인학과 제26회 졸업작품 전시 참여 </span><br>
+                        <span class="sub">브랜드 제작 및 캠페인 아이덴티티 제작</span>
+
+                    </div>
+
+                    <div class="inner_list">
+                        <h3>[2021.11]</h3>
+                        <span class="import">Data Visualization with P5 워크숍 참여</span><br>
+                        <span class="sub">프로그래밍을 활용한 데이터 시각화</span>
+                    </div>
+
+                    <div class="inner_list">
+                        <h3>[2021.9 - 2021.12]</h3>
+                        <span class="import">사회적 기업 dALL UD LIFE+ 아이덴티티 제작 및 홈페이지 리뉴얼</span><br>
+                        <span class="sub">카페24 플랫폼을 활용한 홈페이지 리뉴얼 작업</span>
+                    </div>
+                </div>
+            </div>
+            <div class="develop">
+                <div class="headline">
+                    <h3>Tech Stack</h3>
+                </div>
+                <div class="develop_inner">
+                    <div class="inner_list">
+                        <h3>Design Tech</h3>
+                        <p class="import">
+                            배너 및 디테일 페이지를 제작하기 위한 이미지 편집, 그래픽 및
+                            gif, 영상편집물을 제작하기 위한 컷편집 및 모션그래픽을 제작할 수 있습니다.
+                            또한 콘셉트에 따른 통일성 있는 UI Style Guide를 제시하며 실제 구현 가능하도록 디자인합니다.
+                        </p>
+                        <div class="tech">
+                            <span>Photoshop</span>
+                            <span>Illustrator</span>
+                            <span>Indesign</span>
+                            <span>PremierePro</span>
+                            <span>AfterEffects</span>
+                            <span>XD</span>
+                            <span>Figma</span>
+                        </div>
+                    </div>
+
+
+                    <div class="inner_list">
+                        <h3>Develop Tech</h3>
+                        <p class="import">
+                            웹 표준과 접근성 준수, SEO 최적화를 위해 페이지 구조와 태그의 의미를 고려하며 마크업 하며,
+                            CSS, SCSS 등을 통해 디자인 결과물과 흡사하게 구현해 낼 수 있으며 반응형 웹 제작 가능합니다.
+                            애니메이션 및 기타 동적 요소를 웹페이지에 담아낼 수 있으며,
+                            협업을 위해 재활용과 유지보수가 쉬운 코드를 짤 수 있도록 끊임없이 연구합니다.
+
+                        </p>
+                        <div class="tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>SASS</span>
+                            <span>Javascript</span>
+                            <span>JQuery</span>
+                            <span>JSON</span>
+                            <span>AJAX</span>
+                            <span>React</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project -->
+    <section class="div s_03" id="slide03">
+        <div class="project_wrap">
+            <div class="project">
+                <!-- project5 -->
+                <div class="project_container">
+                    <h1 class="text" data-img="suwon_fc">SUWON FC<span><a
+                                href="https://cyh272036.github.io/project5_suwonfc/" target="_blank">React</a></span>
+                    </h1>
+                    <div class="text-img" data-img-container="suwon_fc">
+                        <a href="https://cyh272036.github.io/project5_suwonfc/" target="_blank"><img
+                                src="img/project_5.png" alt="SUWON FC Image"></a>
+                        <p class="divide">3W / Personal</p>
+                        <p class="divide three">React와 Redux를 통한 온라인 쇼핑몰 제작</p>
+                        <a href="https://drive.google.com/file/d/1zb9JWhu_FuZYrdMc_0QBcHCg6zPkjAEj/view?usp=sharing"
+                            target="_blank">
+                            <div class="divide two">
+                                <img src="img/file.png" alt="project_5">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- project4 -->
+                <div class="project_container">
+                    <h1 class="text" data-img="khobo">KYOBO<span><a href="https://cyh272036.github.io/project4_Ajax/"
+                                target="_blank">Open
+                                API</a></span></h1>
+                    <div class="text-img" data-img-container="khobo">
+                        <a href="https://cyh272036.github.io/project4_Ajax/" target="_blank"><img
+                                src="img/project_4.png" alt="KHOBO"></a>
+                        <p class="divide">2.3W / Personal</p>
+                        <p class="divide three">Open API와 Ajax를 활용한 교보문고 사이트</p>
+                        <a href="https://drive.google.com/file/d/1aRG1s-Ymg0R5CeKwq-i3LRGDccUC8cuB/view?usp=sharing"
+                            target="_blank">
+                            <div class="divide two">
+                                <img src="img/file.png" alt="project_4">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- project3 -->
+                <div class="project_container">
+                    <h1 class="text" data-img="epoch_p">EPOCH.P<span><a
+                                href="https://cyh272036.github.io/project3_Epoch.p/" target="_blank">Team
+                                project</a></span></h1>
+                    <div class="text-img" data-img-container="epoch_p">
+                        <a href="https://cyh272036.github.io/project3_Epoch.p/" target="_blank"><img
+                                src="img/project_3.png" alt="EPOCH.P"></a>
+                        <p class="divide">3W / 4인 Team Project 팀장</p>
+                        <p class="divide three">디자인 가이드 및 에드워드 호퍼 전시 소개 페이지 제작</p>
+                        <a href="https://drive.google.com/file/d/1FJnnxsBeKZ55yR4t0P-fLFaYRlJ7nWBW/view?usp=sharing"
+                            target="_blank">
+                            <div class="divide two">
+                                <img src="img/file.png" alt="project_3">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- project2 -->
+                <div class="project_container">
+                    <h1 class="text" data-img="haribo">HARIBO<span><a href="
+                    https://cyh272036.github.io/project2.haribo/" target="_blank">Responsive</a></span></h1>
+                    <div class="text-img">
+                        <a href="https://cyh272036.github.io/project2.haribo/" target="_blank"><img
+                                src="img/project_2.png" alt="haribo" data-img-container="haribo"></a>
+                        <p class="divide">2W / Personal</p>
+                        <p class="divide three">인터랙티브 반응형 웹 페이지 제작</p>
+                        <a href="https://drive.google.com/file/d/1d8UP5FFeNzXf3dcts4Z-lDeiOVOhxJop/view?usp=sharing"
+                            target="_blank">
+                            <div class="divide two">
+                                <img src="img/file.png" alt="project_2">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- project1 -->
+                <div class="project_container">
+                    <h1 class="text" data-img="collection_l">COLLECTION:L<span><a
+                                href="https://cyh272036.github.io/project.1_collectionL/"
+                                target="_blank">HTML,CSS</a></span></h1>
+                    <div class="text-img" data-img-container="collection_l">
+                        <a href="https://cyh272036.github.io/project.1_collectionL/" target="_blank"><img
+                                src="img/project_1.png" alt="COLLECTION:L"></a>
+                        <p class="divide">4W / Personal</p>
+                        <p class="divide three">가상 프리미엄 조명 브랜드 웹사이트 제작</p>
+                        <a href="https://drive.google.com/file/d/1V-6xwoDhbTdPlJqABWK6Gq7bS-jnbJWE/view?usp=sharing"
+                            target="_blank">
+                            <div class="divide two">
+                                <img src="img/file.png" alt="project_1">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imgbox"></div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section class="div s_04" id="slide04">
+        <div class="introduction">
+            <div class="index">
+                <div class="inner_headline"><span>작은 점</span>으로 시작해서 <br> 무한한 <span>공간</span>으로 펼쳐나가는</div>
+                <div class="index_inner">
+                    <p> 무한한 가능성을 꿈꾸며 작은 점부터 시작한 저는 다양한 지식을 연결한 입체적인 차원의 모습으로 향해가고 있습니다. 앞으로 더 큰 도전과 배움을 통해 다차원의 능력을 가진 개발자로 성장하겠습니다.</p>
+                </div>
+            </div>
+
+            <div class="index_list">
+                <div class="circle_wrap">
+                    <div class="circle indexone">
+                        <svg viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="23.5" cy="23.5" r="23.35" stroke="white" stroke-width="0.3"
+                                stroke-dasharray="2 2" />
+                        </svg>
+                        <h3>Point</h3>
+                        <p>코드의 본질적인 속성을 이해하고 활용하는 능력 </p>
+                    </div>
+
+                    <div class="circle indextwo">
+                        <svg viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="23.5" cy="23.5" r="23.35" stroke="white" stroke-width="0.3"
+                                stroke-dasharray="2 2" />
+                        </svg>
+                        <h3>Line</h3>
+                        <p>UX/UI를 고려한 웹사이트 레이아웃과 스타일을 정의하고 적용하는 능력</p>
+                    </div>
+
+                    <div class="circle indexthree">
+                        <svg viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="23.5" cy="23.5" r="23.35" stroke="white" stroke-width="0.3"
+                                stroke-dasharray="2 2" />
+                        </svg>
+                        <h3>Surface</h3>
+                        <p>다양한 디바이스와 상황에 따라 유연하고 다채롭게 제작하는 능력</p>
+                    </div>
+
+                    <div class="circle indexfour">
+                        <svg viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="23.5" cy="23.5" r="23.35" stroke="white" stroke-width="0.3"
+                                stroke-dasharray="2 2" />
+                        </svg>
+                        <h3>Space</h3>
+                        <p>단순한 코드 작성을 넘어 데이터를 이해-분석하고 응용할 수 있는 능력</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="animated-title">
+            <div class="track">
+                <div class="content">
+                    Point - Line - Surface - Space &#183; Point - Line - Surface - Space &#183; Point - Line - Surface -
+                    Space &#183; Point - Line - Surface - Space &#183; Point - Line - Surface - Space &#183; Point -
+                    Line -
+                    Surface - Space &#183; Point - Line - Surface - Space &#183;</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- web business card -->
+    <section class="div s_05" id="slide05">
+        <div class="background logo">
+            <div class="group-1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136.65 155.71" preserveAspectRatio="none">
+                    <path
+                        d="m.16,76.34c0-9.37,1.61-18.56,4.82-27.57,3.21-9.01,7.89-17.19,14.05-24.55,6.15-7.35,13.65-13.23,22.48-17.63C50.34,2.2,60.38,0,71.62,0,84.99,0,96.6,3.1,106.44,9.3c9.83,6.2,17.16,14.27,21.98,24.22l-25.29,19.03c-2.14-5.48-4.99-9.73-8.53-12.76-3.55-3.03-7.43-5.15-11.64-6.38-4.21-1.22-8.26-1.84-12.14-1.84-6.29,0-11.78,1.33-16.46,4-4.68,2.67-8.56,6.24-11.64,10.71-3.08,4.47-5.35,9.44-6.82,14.92-1.47,5.48-2.21,10.96-2.21,16.44,0,6.06.87,11.89,2.61,17.52,1.74,5.62,4.25,10.6,7.53,14.92,3.28,4.32,7.26,7.75,11.94,10.27,4.68,2.52,9.83,3.79,15.45,3.79,4.01,0,8.09-.72,12.24-2.16,4.15-1.44,7.99-3.71,11.54-6.81,3.54-3.1,6.25-7.17,8.13-12.22l26.89,17.08c-2.81,7.5-7.43,13.92-13.85,19.25-6.42,5.34-13.68,9.41-21.78,12.22-8.1,2.81-16.09,4.22-23.98,4.22-10.3,0-19.77-2.27-28.4-6.81-8.63-4.54-16.06-10.6-22.28-18.17-6.22-7.57-11.04-16.07-14.45-25.52C1.87,95.77.16,86.15.16,76.34Z" />
+                </svg>
+            </div>
+
+            <div class="group-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143.5 155.8" preserveAspectRatio="none">
+                    <path d="m131.82.09v155.71h-32.25v-63.82h-55.64v63.82H11.68V.09h32.25v60.31h55.64V.09h32.25Z" />
+                </svg>
+            </div>
+
+            <div class="group-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157.2 155.8" preserveAspectRatio="none">
+                    <path
+                        d="m78.41,155.8c-10.49,0-19.96-2.2-28.41-6.6-8.45-4.4-15.73-10.31-21.82-17.74-6.1-7.43-10.78-15.79-14.06-25.09-3.28-9.3-4.92-18.93-4.92-28.88s1.74-19.97,5.21-29.2c3.47-9.23,8.32-17.49,14.55-24.77,6.22-7.28,13.6-13.01,22.12-17.2C59.59,2.14,68.9.04,78.99.04s19.76,2.2,28.21,6.6c8.45,4.4,15.73,10.35,21.82,17.85,6.1,7.5,10.78,15.9,14.06,25.2,3.27,9.3,4.92,18.79,4.92,28.45,0,10.24-1.71,19.98-5.11,29.2-3.41,9.23-8.26,17.49-14.55,24.77-6.29,7.28-13.66,13.05-22.12,17.31-8.45,4.26-17.73,6.38-27.82,6.38Zm-36.37-77.88c0,5.92.79,11.65,2.36,17.2,1.57,5.55,3.9,10.49,6.98,14.82,3.08,4.33,6.91,7.79,11.5,10.38,4.59,2.6,9.83,3.89,15.73,3.89s11.53-1.33,16.12-4c4.59-2.67,8.39-6.24,11.4-10.71,3.01-4.47,5.28-9.48,6.78-15.03,1.51-5.55,2.26-11.21,2.26-16.98s-.79-11.61-2.36-17.09c-1.57-5.48-3.93-10.42-7.08-14.82-3.15-4.4-7.01-7.82-11.6-10.28-4.59-2.45-9.77-3.68-15.53-3.68-6.16,0-11.5,1.3-16.02,3.89-4.52,2.6-8.33,6.09-11.4,10.49-3.08,4.4-5.38,9.38-6.88,14.93-1.51,5.55-2.26,11.22-2.26,16.98Z" />
+                </svg>
+            </div>
+
+            <div class="group-4 i">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 155.8" preserveAspectRatio="none">
+                    <path d="m11.98,155.8V0h28.03v155.8H11.98Z" />
+                </svg>
+            </div>
+
+            <div class="group-5">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143.9 155.8" preserveAspectRatio="none">
+                    <path d="m41.57.04l30.08,69.23L102.13.04h35.19l-49.74,103.19v53.36h-32.05v-53.8L6.58.04h35Z" />
+                </svg>
+            </div>
+
+            <div class="group-5">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146.05 155.8" preserveAspectRatio="none">
+                    <path
+                        d="m75.38,155.8c-11.14,0-20.65-2.07-28.51-6.2-7.87-4.13-14.26-9.79-19.17-16.96-4.92-7.18-8.52-15.37-10.81-24.57-2.3-9.21-3.44-18.89-3.44-29.03V.09h32.25v78.92c0,5.8.52,11.42,1.57,16.85,1.05,5.43,2.75,10.25,5.11,14.45,2.36,4.21,5.41,7.54,9.14,10,3.74,2.46,8.36,3.7,13.86,3.7s10.35-1.27,14.16-3.8c3.8-2.54,6.81-5.94,9.04-10.22,2.23-4.27,3.86-9.1,4.92-14.46,1.05-5.36,1.57-10.87,1.57-16.52V.09h32.25v78.95c0,10.73-1.21,20.73-3.64,30.01-2.43,9.28-6.13,17.44-11.11,24.47-4.98,7.03-11.37,12.51-19.17,16.42-7.8,3.91-17.14,5.87-28.02,5.87Z" />
+                </svg>
+            </div>
+
+            <div class="group-4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151.02 155.8" preserveAspectRatio="none">
+                    <path d="m46.51,67.55v89.04H14.26V.88h25.56l64.69,91.67V.88h32.25v155.71h-26.35l-63.9-89.04Z" />
+                </svg>
+            </div>
+
+            <div class="group-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.3 155.8" preserveAspectRatio="none">
+                    <path d="m130.88,0v155.8h-32.25v-63.86h-55.64v63.86H10.75V0h32.25v60.34h55.64V0h32.25Z" />
+                </svg>
+            </div>
+
+            <div class="group-2 w">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 147.93 155.8" preserveAspectRatio="none">
+                    <path
+                        d="m41.59.24h22.35l9.95,49.8L83.84.24h22.5l-16.91,72.39,10.66,41.46L121.43.02h26.49l-36,155.76h-21.02l-17.02-60.99-16.87,60.99h-21.17L0,.02h26.35l21.49,114.07,10.36-41.46L41.59.24Z" />
+                </svg>
+            </div>
+
+            <div class="group-1 a">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.37 155.8" preserveAspectRatio="none">
+                    <path
+                        d="m51.68.92h33.08l45.61,155.62h-31.4l-9-34.85h-43.69l-8.99,34.85H5.89L51.68.92Zm31.9,96l-15.45-59.84-15.45,59.84h30.9Z" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="contents">
+            <ul class="link-tree">
+                <li>&#9990; +82 10-3366-5311</li>
+                <li>&#9993; cyh272036@gmail.com</li>
+            </ul>
+        </div>
+
+        <p class="thank">&#10024;Thanks for visiting!&#10024;</p>
+
+        <p class="copy">
+            본 페이지는 상업적 목적이 아닌<br>
+            개인 포트폴리오용으로 제작되었습니다.<br>
+
+            &#169; 2024 CHOI-YUN-HWA. All Rights Reserved.
+        </p>
+    </section>
+</body>
+
+</html>
