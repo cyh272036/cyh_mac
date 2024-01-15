@@ -505,6 +505,7 @@ header {
 
                 h3 {
                     margin-bottom: 3px;
+                    text-decoration: underline;
                 }
 
                 .import {
@@ -602,11 +603,10 @@ header {
 .s_03 {
     .project_wrap {
         width: 1200px;
-        height: 75vh;
-        display: flex;
-        justify-content: space-between;
+        height: 70vh;
         position: relative;
         margin-top: 50px;
+
 
         .project {
             display: flex;
@@ -751,6 +751,56 @@ header {
             background-size: contain;
             background-position: center;
         }
+    }
+
+    .design{
+        width: 50%;
+        height: 5%;
+        text-align: left;
+        color: #b6b6b6;
+
+        display: flex;
+        align-items: center;
+
+        transition: all 0.3s linear;
+
+        cursor: pointer;
+
+
+
+        .more_project{
+            text-align: left;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.2rem;
+            margin-left: 10px;
+        }
+
+        .plus_icon{
+            width: 20px;
+            height: 20px;
+            position: relative;
+
+            img{
+                width: 100%;
+                position: absolute;
+            }
+
+            .orange{
+                display: none;
+            }
+        }
+    }
+
+    .design:hover {
+        color: $pointColor;
+    }
+
+    .design:hover .orange{
+        display: block;
+    }
+
+    .design:hover .white{
+        display: none;
     }
 }
 
